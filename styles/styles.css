@@ -12,6 +12,36 @@ header{
     margin: 0 auto;
    
 }
+
+
+
+
+/* genarelize style */
+
+.section_heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+    
+    
+}
+
+.section_heading h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
 .banner_text h1{
     color: #272727;
     font-family: Lato;
@@ -31,7 +61,7 @@ font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
+line-height: 30px;
 margin-bottom: 15px;
 }
 .banner_text button{
@@ -44,6 +74,8 @@ background: #E55473;
 color: #FFF;
 font-size: 20px;
 font-weight: 700;
+cursor: pointer;
+transition: 1s;
 }
 .banner{
  display: flex;
@@ -54,4 +86,90 @@ align-items: center;
 .container .banner-image img{
     width: 100%;
     vertical-align: middle;
+    
+}
+
+button:hover{
+    background-color: rgb(41, 117, 92);
+}
+
+/* start feature section */
+
+
+#featured{
+
+    padding: 100px auto;
+
+}
+
+.section_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    margin-left: -150px;
+    
+    
+}
+
+.section_content .flower .flower_img {
+    background-color: #eb9cad;
+    border-radius: 300px 300px 0px 0px;
+    padding: 15px 5px 0;
+   display: flex;
+   align-items: end;
+   height: 600px;
+   
+}
+
+/* .flower{
+    margin-right: 190px;
+} */
+.section_content .flower .flower_img img{
+    width: 100%;
+}
+
+.section_content .flower .pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section_content .flower .blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section_content .flower .green{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section_content .flower p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+}
+
+/* three in one styles */
+
+
+
+.container_three{
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 50px auto;
+}
+   
+.banner_img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+.text_dis{
+    text-align: center;
+    margin-top: 90px;
 }
